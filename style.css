@@ -85,10 +85,13 @@ h3{
     text-align: center;
     padding: 40px 0px;
 }
+.right_space{
+    margin-right: 10px;
+}
 .footer_paragraph{
     color: #fff;
 }
-#copy_right{
+#copyright{
     font-size: 14px;
     color: #fff;
     font-weight: 200;
