@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 52px;
+    color: rgb(92, 86, 86);
+    font-weight: 900;
+}
+.hero_section{
+    display: flex;
+}
+.half_width{
+    width: 50%;
+    padding: 90px 140px;
+    padding-right: 0px;
+}
+.highlighted_text{
+    color: #fc8f49;
+}
+.btn{
+    background-image: linear-gradient(#fc8f49,#fe492e);
+    padding: 10px 25px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    display: inline-block;
+}
+.hero_model{
+    width: 100%;
+    margin-top: -80px;
+    margin-left: -85px;
+}
