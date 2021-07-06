@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 52px;
@@ -10,6 +11,10 @@ h2{
     font-size: 25px;
     font-weight: 600px;
     color: rgb(92, 86, 86);  
+}
+h3{
+    font-size: 18px;
+    font-weight: 800;
 }
 .hero_section{
     display: flex;
@@ -50,4 +55,41 @@ h2{
 }
 .about_section .half_width h2{
     margin-top: 50px;
+}
+.about_section_btn{
+    margin-top: 40px;
+}
+.recipie_section{
+    padding-bottom: 50px;
+}
+.recipie_text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our_recipie{
+    display: flex;
+    margin: 0 80px;
+}
+.recipie_card{
+    width: 33%;
+    margin: 0px 30px;
+    box-shadow: 5px 5px 15px grey;
+    padding: 18px 18px;
+    border-radius: 25px;
+}
+.recipie_card img{
+    width: 100%;
+}
+.footer_wraper{
+    background-color: #000;
+    text-align: center;
+    padding: 40px 0px;
+}
+.footer_paragraph{
+    color: #fff;
+}
+#copy_right{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
 }
