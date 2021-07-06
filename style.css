@@ -6,6 +6,11 @@ h1{
     color: rgb(92, 86, 86);
     font-weight: 900;
 }
+h2{
+    font-size: 25px;
+    font-weight: 600px;
+    color: rgb(92, 86, 86);  
+}
 .hero_section{
     display: flex;
 }
@@ -30,4 +35,19 @@ h1{
     width: 100%;
     margin-top: -80px;
     margin-left: -85px;
+}
+.about_section{
+    display: flex;
+    background-image: url(images/shapes/7.png );
+    background-repeat: no-repeat;
+}
+.about_section .half_width{
+    padding: 100px 100px;
+}
+.model_about{
+    width: 70%;
+    margin-left: 60px;
+}
+.about_section .half_width h2{
+    margin-top: 50px;
 }
